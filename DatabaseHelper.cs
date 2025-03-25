@@ -13,7 +13,7 @@ namespace TaskMastrProgram
     {
         private static string databaseFile = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tasks.db");
         private static string connectionString = $"Data Source={databaseFile};Version=3;";
-=3;";
+
 
         public static void InitializeDatabase()
         {
